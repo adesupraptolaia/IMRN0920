@@ -56,12 +56,16 @@ console.log(rangeWithStep(33, 33, 7)); // [33]
 
 console.log("\nSoal No. 3 (Sum of Range)");
 
-function sum(startNum, finishNum, step = 1) {
+function sum(startNum, finishNum, step) {
     let hasil = 0;
     if (typeof startNum === "undefined" && typeof finishNum === "undefined") {
         return hasil;
     } else if (typeof finishNum === "undefined") {
         return startNum;
+    }
+
+    if (typeof step === "undefined") {
+        step = 1
     }
 
     if (startNum > finishNum) {
