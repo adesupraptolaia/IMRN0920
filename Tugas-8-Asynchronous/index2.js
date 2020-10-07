@@ -7,18 +7,16 @@ var books = [
 ];
 
 let i = 0;
-var waktuSebelumnya;
 function callback(time) {
     let book = books[i];
 
-    if (time != waktuSebelumnya && i !== books.length) {
+    if (time > 0 && i !== books.length) {
         readBooksPromise(time, book)
             .then((sisaWaktu) => callback(sisaWaktu))
             .catch(() => {});
     }
 
     i += 1;
-    waktuSebelumnya = time;
 }
 
-callback(6000);
+callback(10000);
