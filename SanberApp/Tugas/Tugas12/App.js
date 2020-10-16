@@ -11,7 +11,8 @@ import {
   View,
   Image,
   TouchableOpacity,
-  FlatList
+  FlatList,
+  StatusBar
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import VideoItem from './videoItem.js';
@@ -66,6 +67,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: StatusBar.currentHeight || 0,
     flex: 1
   },
   navBar: {
