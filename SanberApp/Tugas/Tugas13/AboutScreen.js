@@ -2,7 +2,6 @@ import React from "react";
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 import {
     MaterialCommunityIcons,
-    FontAwesome,
     AntDesign,
     Entypo,
 } from "@expo/vector-icons";
