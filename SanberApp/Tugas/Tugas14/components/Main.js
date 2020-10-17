@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, TextInput, TouchableOpacity, StyleSheet, StatusBar, Keyboard } from 'react-native';
+import { View, Text, ScrollView, TextInput, TouchableOpacity, StyleSheet, StatusBar, Keyboard, Dimensions } from 'react-native';
 
 import Note from './Note';
 
@@ -76,10 +76,13 @@ export default class Main extends React.Component {
  }
 };
 
+const window = Dimensions.get("window")
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: StatusBar.currentHeight || 0,
+    height: window.height,
   },
   header: {
     backgroundColor: '#E91E63',
