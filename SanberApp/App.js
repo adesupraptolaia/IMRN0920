@@ -1,9 +1,9 @@
 import React from 'react';
 
-import TodoApp from './Tugas/Tugas14/App'
+import Tugas15 from './Tugas/TugasNavigation/index'
 
 export default function App() {
   return (
-      <TodoApp />
+      <Tugas15 />
   );
 }
