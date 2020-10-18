@@ -1,0 +1,24 @@
+{
+  "icon": [
+    {
+      "color": "#FF7171",
+      "name": "Man"
+    },
+    {
+      "color": "#A2F0E6",
+      "name": "Woman"
+    },
+    {
+      "color": "#7AD0FF",
+      "name": "Kids"
+    },
+    {
+      "color": "#CCAAFF",
+      "name": "Home"
+    },
+    {
+      "color": "#505862",
+      "name": "More"
+    }
+  ]
+}
