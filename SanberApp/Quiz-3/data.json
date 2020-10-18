@@ -25,5 +25,10 @@
     {"foto": "https://images-na.ssl-images-amazon.com/images/I/81%2BaZ2fFYBL._AC_SX466_.jpg", "name": "Tiere handwash", "price": "$12.22"},
     {"foto": "https://images-na.ssl-images-amazon.com/images/I/81dJA2VmHgL._AC_SL1500_.jpg", "name": "JBL Speaker", "price": "$12.22"},
     {"foto": "https://da.lowes.ca/webassets/images/784353_15860616_001_l.jpg", "name": "Google Home", "price": "$80.30"}
+  ],
+  "newProduct": [
+    {"foto": "https://images-na.ssl-images-amazon.com/images/I/81%2BaZ2fFYBL._AC_SX466_.jpg", "name": "Tiere handwash", "price": "$12.22"},
+    {"foto": "https://images-na.ssl-images-amazon.com/images/I/81dJA2VmHgL._AC_SL1500_.jpg", "name": "JBL Speaker", "price": "$12.22"},
+    {"foto": "https://da.lowes.ca/webassets/images/784353_15860616_001_l.jpg", "name": "Google Home", "price": "$80.30"}
   ]
 }

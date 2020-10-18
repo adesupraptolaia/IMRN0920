@@ -8,6 +8,7 @@ import data from "./data.json";
 
 const dataIcon = data.icon;
 const dataFlashSale = data.flashsale;
+const dataNewProduct = data.newProduct;
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -124,6 +125,44 @@ const HomeScreen = ({ navigation }) => {
                     );
                 })}
             </View>
+
+            <Text
+                style={{
+                    marginTop: 20,
+                    fontSize: 29,
+                    fontWeight: "800",
+                    paddingLeft: 16,
+                }}
+            >
+                New Product
+            </Text>
+
+            <View
+                style={{
+                    flexDirection: "row",
+                    paddingLeft: 16,
+                }}
+            >
+                {dataFlashSale.map((item) => {
+                    return (
+                        <View
+                            style={{
+                                width: 120,
+                                height: 170,
+                            }}
+                        >
+                            <Image source={{ uri: item.foto }} alt="foto" style={{
+                                width: 100,
+                                height: 110,
+                            }} />
+
+                            <Text>{item.name}</Text>
+                            <Text>{item.price}</Text>
+                        </View>
+                    );
+                })}
+            </View>
+
         </View>
     );
 };

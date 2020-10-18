@@ -7,7 +7,6 @@ const logo = require("../assets/logo.jpg")
 const Splash = ({ navigation }) => {
 
     useEffect(()=>{
-        console.warn("masuk")
         setTimeout(()=>{
             navigation.navigate("Register")
         }, 3000)
